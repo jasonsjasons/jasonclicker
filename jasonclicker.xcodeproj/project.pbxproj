@@ -14,7 +14,9 @@
 		96371D701D36E5F0005794CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96371D6E1D36E5F0005794CC /* LaunchScreen.storyboard */; };
 		96371D7B1D36E5F0005794CC /* jasonclickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96371D7A1D36E5F0005794CC /* jasonclickerTests.swift */; };
 		96371D861D36E5F0005794CC /* jasonclickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96371D851D36E5F0005794CC /* jasonclickerUITests.swift */; };
-		96371D961D36F2E0005794CC /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96371D951D36F2E0005794CC /* menu.swift */; };
+		96371D9D1D39725F005794CC /* Secondviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96371D9B1D39725F005794CC /* Secondviewcontroller.swift */; };
+		96371DA01D3972E5005794CC /* secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96371D9F1D3972E5005794CC /* secondview.swift */; };
+		965986441D40079B0003CFCA /* clicksandjasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965986431D40079B0003CFCA /* clicksandjasons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,9 @@
 		96371D811D36E5F0005794CC /* jasonclickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jasonclickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96371D851D36E5F0005794CC /* jasonclickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jasonclickerUITests.swift; sourceTree = "<group>"; };
 		96371D871D36E5F0005794CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96371D951D36F2E0005794CC /* menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = menu.swift; path = ../menu.swift; sourceTree = "<group>"; };
+		96371D9B1D39725F005794CC /* Secondviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secondviewcontroller.swift; sourceTree = "<group>"; };
+		96371D9F1D3972E5005794CC /* secondview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondview.swift; sourceTree = "<group>"; };
+		965986431D40079B0003CFCA /* clicksandjasons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clicksandjasons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		96371D641D36E5F0005794CC /* jasonclicker */ = {
 			isa = PBXGroup;
 			children = (
-				96371D951D36F2E0005794CC /* menu.swift */,
 				96371D651D36E5F0005794CC /* AppDelegate.swift */,
 				96371D671D36E5F0005794CC /* ViewController.swift */,
+				965986431D40079B0003CFCA /* clicksandjasons.swift */,
+				96371D9B1D39725F005794CC /* Secondviewcontroller.swift */,
 				96371D691D36E5F0005794CC /* Main.storyboard */,
+				96371D9F1D3972E5005794CC /* secondview.swift */,
 				96371D6C1D36E5F0005794CC /* Assets.xcassets */,
 				96371D6E1D36E5F0005794CC /* LaunchScreen.storyboard */,
 				96371D711D36E5F0005794CC /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96371D9D1D39725F005794CC /* Secondviewcontroller.swift in Sources */,
 				96371D681D36E5F0005794CC /* ViewController.swift in Sources */,
+				96371DA01D3972E5005794CC /* secondview.swift in Sources */,
 				96371D661D36E5F0005794CC /* AppDelegate.swift in Sources */,
-				96371D961D36F2E0005794CC /* menu.swift in Sources */,
+				965986441D40079B0003CFCA /* clicksandjasons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +496,7 @@
 				96371D8C1D36E5F0005794CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96371D8D1D36E5F0005794CC /* Build configuration list for PBXNativeTarget "jasonclickerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				96371D8F1D36E5F0005794CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96371D901D36E5F0005794CC /* Build configuration list for PBXNativeTarget "jasonclickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				96371D921D36E5F0005794CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
